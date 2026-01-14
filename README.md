@@ -19,16 +19,14 @@ This project demonstrates clean project architecture, modular design, and Git/Gi
 
 ## 🗂 Project Structure
 kat_virtual_assistant/
-│
-├── main.py # Entry point
-├── requirements.txt # Dependencies
+├── main.py              # Entry point
+├── requirements.txt     # Dependencies
 ├── README.md
-│
 └── src/
-├── assistant.py # Core assistant logic
-├── intents.py # Intent detection
-├── tasks.py # Task execution
-└── .gitignore
+    ├── assistant.py     # Core assistant logic
+    ├── intents.py       # Intent detection
+    ├── tasks.py         # Task execution
+    └── .gitignore
 
 
 ---
@@ -43,7 +41,7 @@ cd kat-virtual-assistant
 ### 2. Install dependencies
 pip install -r requirements.txt
 
-###3 Run Kat
+### 3. Run Kat
 python main.py
 
 💬 Example Interaction
@@ -59,6 +57,7 @@ KAT: Opening Google.
 
 You: exit
 KAT: Goodbye!
+
 
 🧠 Technologies Used
 
